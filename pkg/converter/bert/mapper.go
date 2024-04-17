@@ -7,11 +7,11 @@ package bert
 import (
 	"fmt"
 
-	"github.com/nlpodyssey/cybertron/pkg/models/bert"
 	"github.com/nlpodyssey/spago/mat"
 	"github.com/nlpodyssey/spago/nn"
 	"github.com/nlpodyssey/spago/nn/linear"
 	"github.com/nlpodyssey/spago/nn/normalization/layernorm"
+	"github.com/rh1nox/cybertron/pkg/models/bert"
 )
 
 type paramsMap map[string]mat.Tensor

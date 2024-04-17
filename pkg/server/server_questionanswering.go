@@ -8,8 +8,8 @@ import (
 	"context"
 
 	"github.com/grpc-ecosystem/grpc-gateway/v2/runtime"
-	questionansweringv1 "github.com/nlpodyssey/cybertron/pkg/server/gen/proto/go/questionanswering/v1"
-	"github.com/nlpodyssey/cybertron/pkg/tasks/questionanswering"
+	questionansweringv1 "github.com/rh1nox/cybertron/pkg/server/gen/proto/go/questionanswering/v1"
+	"github.com/rh1nox/cybertron/pkg/tasks/questionanswering"
 	"google.golang.org/grpc"
 )
 

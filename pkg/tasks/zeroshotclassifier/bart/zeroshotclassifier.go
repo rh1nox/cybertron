@@ -12,14 +12,14 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/nlpodyssey/cybertron/pkg/models/bart"
-	"github.com/nlpodyssey/cybertron/pkg/tasks/zeroshotclassifier"
-	"github.com/nlpodyssey/cybertron/pkg/tokenizers/bpetokenizer"
-	"github.com/nlpodyssey/cybertron/pkg/utils/sliceutils"
 	"github.com/nlpodyssey/spago/mat"
 	"github.com/nlpodyssey/spago/mat/float"
 	"github.com/nlpodyssey/spago/nn"
 	"github.com/nlpodyssey/spago/nn/embedding"
+	"github.com/rh1nox/cybertron/pkg/models/bart"
+	"github.com/rh1nox/cybertron/pkg/tasks/zeroshotclassifier"
+	"github.com/rh1nox/cybertron/pkg/tokenizers/bpetokenizer"
+	"github.com/rh1nox/cybertron/pkg/utils/sliceutils"
 	"golang.org/x/sync/errgroup"
 )
 

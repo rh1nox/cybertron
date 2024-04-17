@@ -7,9 +7,9 @@ package bert
 import (
 	"strings"
 
-	"github.com/nlpodyssey/cybertron/pkg/models/bert"
-	"github.com/nlpodyssey/cybertron/pkg/tokenizers/wordpiecetokenizer"
 	"github.com/nlpodyssey/spago/mat"
+	"github.com/rh1nox/cybertron/pkg/models/bert"
+	"github.com/rh1nox/cybertron/pkg/tokenizers/wordpiecetokenizer"
 )
 
 type ModelForTokenClassification struct {

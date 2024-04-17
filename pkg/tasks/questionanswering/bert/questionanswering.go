@@ -12,15 +12,15 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/nlpodyssey/cybertron/pkg/models/bert"
-	"github.com/nlpodyssey/cybertron/pkg/tasks/questionanswering"
-	"github.com/nlpodyssey/cybertron/pkg/tokenizers"
-	"github.com/nlpodyssey/cybertron/pkg/tokenizers/wordpiecetokenizer"
-	"github.com/nlpodyssey/cybertron/pkg/utils/sliceutils"
-	"github.com/nlpodyssey/cybertron/pkg/vocabulary"
 	"github.com/nlpodyssey/spago/ag"
 	"github.com/nlpodyssey/spago/mat"
 	"github.com/nlpodyssey/spago/nn"
+	"github.com/rh1nox/cybertron/pkg/models/bert"
+	"github.com/rh1nox/cybertron/pkg/tasks/questionanswering"
+	"github.com/rh1nox/cybertron/pkg/tokenizers"
+	"github.com/rh1nox/cybertron/pkg/tokenizers/wordpiecetokenizer"
+	"github.com/rh1nox/cybertron/pkg/utils/sliceutils"
+	"github.com/rh1nox/cybertron/pkg/vocabulary"
 )
 
 const (

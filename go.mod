@@ -1,4 +1,4 @@
-module github.com/nlpodyssey/cybertron
+module github.com/rh1nox/cybertron
 
 go 1.21
 

@@ -7,9 +7,9 @@ package wordpiecetokenizer
 import (
 	"strings"
 
-	"github.com/nlpodyssey/cybertron/pkg/tokenizers"
-	"github.com/nlpodyssey/cybertron/pkg/tokenizers/basetokenizer"
-	"github.com/nlpodyssey/cybertron/pkg/vocabulary"
+	"github.com/rh1nox/cybertron/pkg/tokenizers"
+	"github.com/rh1nox/cybertron/pkg/tokenizers/basetokenizer"
+	"github.com/rh1nox/cybertron/pkg/vocabulary"
 )
 
 const (

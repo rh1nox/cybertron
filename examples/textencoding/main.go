@@ -10,10 +10,10 @@ import (
 	"os"
 
 	//lint:ignore ST1001 allow dot import just to make the example more readable
-	. "github.com/nlpodyssey/cybertron/examples"
-	"github.com/nlpodyssey/cybertron/pkg/models/bert"
-	"github.com/nlpodyssey/cybertron/pkg/tasks"
-	"github.com/nlpodyssey/cybertron/pkg/tasks/textencoding"
+	. "github.com/rh1nox/cybertron/examples"
+	"github.com/rh1nox/cybertron/pkg/models/bert"
+	"github.com/rh1nox/cybertron/pkg/tasks"
+	"github.com/rh1nox/cybertron/pkg/tasks/textencoding"
 	"github.com/rs/zerolog"
 	"github.com/rs/zerolog/log"
 )

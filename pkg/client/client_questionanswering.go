@@ -9,9 +9,9 @@ import (
 	"fmt"
 	"time"
 
-	questionansweringnv1 "github.com/nlpodyssey/cybertron/pkg/server/gen/proto/go/questionanswering/v1"
-	"github.com/nlpodyssey/cybertron/pkg/tasks/questionanswering"
-	"github.com/nlpodyssey/cybertron/pkg/utils/ptr"
+	questionansweringnv1 "github.com/rh1nox/cybertron/pkg/server/gen/proto/go/questionanswering/v1"
+	"github.com/rh1nox/cybertron/pkg/tasks/questionanswering"
+	"github.com/rh1nox/cybertron/pkg/utils/ptr"
 )
 
 var _ questionanswering.Interface = &clientForQuestionAnswering{}

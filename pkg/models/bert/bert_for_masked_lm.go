@@ -7,13 +7,13 @@ package bert
 import (
 	"encoding/gob"
 
-	"github.com/nlpodyssey/cybertron/pkg/tokenizers/wordpiecetokenizer"
 	"github.com/nlpodyssey/spago/mat"
 	"github.com/nlpodyssey/spago/mat/float"
 	"github.com/nlpodyssey/spago/nn"
 	"github.com/nlpodyssey/spago/nn/activation"
 	"github.com/nlpodyssey/spago/nn/linear"
 	"github.com/nlpodyssey/spago/nn/normalization/layernorm"
+	"github.com/rh1nox/cybertron/pkg/tokenizers/wordpiecetokenizer"
 )
 
 var _ nn.Model = &ModelForTokenClassification{}

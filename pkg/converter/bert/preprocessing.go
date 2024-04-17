@@ -7,9 +7,9 @@ package bert
 import (
 	"fmt"
 
-	"github.com/nlpodyssey/cybertron/pkg/converter/pytorch"
-	"github.com/nlpodyssey/cybertron/pkg/models/bert"
 	"github.com/nlpodyssey/spago/mat/float"
+	"github.com/rh1nox/cybertron/pkg/converter/pytorch"
+	"github.com/rh1nox/cybertron/pkg/models/bert"
 )
 
 type paramsPostProcessing[T float.DType] struct {

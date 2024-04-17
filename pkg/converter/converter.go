@@ -7,10 +7,10 @@ package converter
 import (
 	"fmt"
 
-	"github.com/nlpodyssey/cybertron/pkg/converter/bart"
-	"github.com/nlpodyssey/cybertron/pkg/converter/bert"
-	"github.com/nlpodyssey/cybertron/pkg/models"
 	"github.com/nlpodyssey/spago/mat/float"
+	"github.com/rh1nox/cybertron/pkg/converter/bart"
+	"github.com/rh1nox/cybertron/pkg/converter/bert"
+	"github.com/rh1nox/cybertron/pkg/models"
 )
 
 // Convert automatically converts a supported pre-trained model, already

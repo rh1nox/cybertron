@@ -12,15 +12,15 @@ import (
 	"path"
 	"path/filepath"
 
-	"github.com/nlpodyssey/cybertron/pkg/generationutils"
-	"github.com/nlpodyssey/cybertron/pkg/models/bart"
-	"github.com/nlpodyssey/cybertron/pkg/tasks/textgeneration"
-	"github.com/nlpodyssey/cybertron/pkg/tokenizers/bpetokenizer"
-	"github.com/nlpodyssey/cybertron/pkg/tokenizers/sentencepiece"
-	"github.com/nlpodyssey/cybertron/pkg/utils/nullable"
 	"github.com/nlpodyssey/spago/mat"
 	"github.com/nlpodyssey/spago/nn"
 	"github.com/nlpodyssey/spago/nn/embedding"
+	"github.com/rh1nox/cybertron/pkg/generationutils"
+	"github.com/rh1nox/cybertron/pkg/models/bart"
+	"github.com/rh1nox/cybertron/pkg/tasks/textgeneration"
+	"github.com/rh1nox/cybertron/pkg/tokenizers/bpetokenizer"
+	"github.com/rh1nox/cybertron/pkg/tokenizers/sentencepiece"
+	"github.com/rh1nox/cybertron/pkg/utils/nullable"
 )
 
 var _ textgeneration.Interface = &TextGeneration{}

@@ -9,8 +9,8 @@ import (
 	"fmt"
 	"time"
 
-	textclassificationv1 "github.com/nlpodyssey/cybertron/pkg/server/gen/proto/go/textclassification/v1"
-	"github.com/nlpodyssey/cybertron/pkg/tasks/textclassification"
+	textclassificationv1 "github.com/rh1nox/cybertron/pkg/server/gen/proto/go/textclassification/v1"
+	"github.com/rh1nox/cybertron/pkg/tasks/textclassification"
 )
 
 var _ textclassification.Interface = &clientForTextClassification{}

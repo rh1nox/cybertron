@@ -10,9 +10,9 @@ import (
 	"container/heap"
 	"sort"
 
-	"github.com/nlpodyssey/cybertron/pkg/utils/sliceutils"
 	"github.com/nlpodyssey/spago/mat"
 	"github.com/nlpodyssey/spago/mat/float"
+	"github.com/rh1nox/cybertron/pkg/utils/sliceutils"
 )
 
 // ScoreProcessor is a function that takes a matrix of scores and returns an altered matrix of scores.

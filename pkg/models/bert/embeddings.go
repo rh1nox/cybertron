@@ -5,8 +5,6 @@
 package bert
 
 import (
-	"github.com/nlpodyssey/cybertron/pkg/tokenizers/wordpiecetokenizer"
-	"github.com/nlpodyssey/cybertron/pkg/vocabulary"
 	"github.com/nlpodyssey/spago/ag"
 	"github.com/nlpodyssey/spago/mat"
 	"github.com/nlpodyssey/spago/mat/float"
@@ -14,6 +12,8 @@ import (
 	emb "github.com/nlpodyssey/spago/nn/embedding"
 	"github.com/nlpodyssey/spago/nn/linear"
 	"github.com/nlpodyssey/spago/nn/normalization/layernorm"
+	"github.com/rh1nox/cybertron/pkg/tokenizers/wordpiecetokenizer"
+	"github.com/rh1nox/cybertron/pkg/vocabulary"
 )
 
 // Embeddings implements a Bert input embedding module.

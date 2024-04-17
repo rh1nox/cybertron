@@ -7,9 +7,9 @@ package bart
 import (
 	"fmt"
 
-	"github.com/nlpodyssey/cybertron/pkg/models/bart"
 	"github.com/nlpodyssey/spago/mat"
 	"github.com/nlpodyssey/spago/nn/linear"
+	"github.com/rh1nox/cybertron/pkg/models/bart"
 )
 
 // paramsMap is a map of parameters.

@@ -8,12 +8,12 @@ import (
 	"encoding/gob"
 	"sync"
 
-	"github.com/nlpodyssey/cybertron/pkg/generationutils"
 	"github.com/nlpodyssey/spago/ag"
 	"github.com/nlpodyssey/spago/mat"
 	"github.com/nlpodyssey/spago/mat/float"
 	"github.com/nlpodyssey/spago/nn"
 	"github.com/nlpodyssey/spago/nn/linear"
+	"github.com/rh1nox/cybertron/pkg/generationutils"
 )
 
 var _ nn.Model = &ModelForConditionalGeneration{}

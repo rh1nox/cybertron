@@ -9,7 +9,6 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/nlpodyssey/cybertron/pkg/tokenizers"
 	"github.com/nlpodyssey/gotokenizers/encodings"
 	"github.com/nlpodyssey/gotokenizers/models"
 	"github.com/nlpodyssey/gotokenizers/models/bpemodel"
@@ -18,6 +17,7 @@ import (
 	"github.com/nlpodyssey/gotokenizers/pretokenizers/bytelevelpretokenizer"
 	"github.com/nlpodyssey/gotokenizers/strutils"
 	"github.com/nlpodyssey/gotokenizers/vocabulary"
+	"github.com/rh1nox/cybertron/pkg/tokenizers"
 )
 
 // var _ tokenizers.Tokenizer = &BPETokenizer{} // TODO: update Tokenizer interface to return errors

@@ -10,7 +10,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/nlpodyssey/cybertron/pkg/utils/nullable"
+	"github.com/rh1nox/cybertron/pkg/utils/nullable"
 )
 
 const (

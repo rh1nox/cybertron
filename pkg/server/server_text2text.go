@@ -8,9 +8,9 @@ import (
 	"context"
 
 	"github.com/grpc-ecosystem/grpc-gateway/v2/runtime"
-	textgenerationv1 "github.com/nlpodyssey/cybertron/pkg/server/gen/proto/go/textgeneration/v1"
-	"github.com/nlpodyssey/cybertron/pkg/tasks/textgeneration"
-	"github.com/nlpodyssey/cybertron/pkg/utils/nullable"
+	textgenerationv1 "github.com/rh1nox/cybertron/pkg/server/gen/proto/go/textgeneration/v1"
+	"github.com/rh1nox/cybertron/pkg/tasks/textgeneration"
+	"github.com/rh1nox/cybertron/pkg/utils/nullable"
 	"google.golang.org/grpc"
 )
 

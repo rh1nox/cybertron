@@ -7,20 +7,21 @@ package bert
 import (
 	"context"
 	"fmt"
-	"github.com/nlpodyssey/spago/mat"
 	"path"
 	"path/filepath"
 	"sort"
 	"strconv"
 	"strings"
 
-	"github.com/nlpodyssey/cybertron/pkg/models/bert"
-	"github.com/nlpodyssey/cybertron/pkg/tasks/textclassification"
-	"github.com/nlpodyssey/cybertron/pkg/tokenizers"
-	"github.com/nlpodyssey/cybertron/pkg/tokenizers/wordpiecetokenizer"
-	"github.com/nlpodyssey/cybertron/pkg/utils/sliceutils"
-	"github.com/nlpodyssey/cybertron/pkg/vocabulary"
+	"github.com/nlpodyssey/spago/mat"
+
 	"github.com/nlpodyssey/spago/nn"
+	"github.com/rh1nox/cybertron/pkg/models/bert"
+	"github.com/rh1nox/cybertron/pkg/tasks/textclassification"
+	"github.com/rh1nox/cybertron/pkg/tokenizers"
+	"github.com/rh1nox/cybertron/pkg/tokenizers/wordpiecetokenizer"
+	"github.com/rh1nox/cybertron/pkg/utils/sliceutils"
+	"github.com/rh1nox/cybertron/pkg/vocabulary"
 	"github.com/rs/zerolog/log"
 )
 

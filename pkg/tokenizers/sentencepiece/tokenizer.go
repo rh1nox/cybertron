@@ -11,8 +11,8 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/nlpodyssey/cybertron/pkg/tokenizers/sentencepiece/internal/sentencepiece"
 	"github.com/nlpodyssey/gotokenizers/vocabulary"
+	"github.com/rh1nox/cybertron/pkg/tokenizers/sentencepiece/internal/sentencepiece"
 )
 
 const defaultUnknownToken = "<unk>"

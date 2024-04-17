@@ -9,8 +9,8 @@ import (
 	"fmt"
 	"time"
 
-	tokenclassificationv1 "github.com/nlpodyssey/cybertron/pkg/server/gen/proto/go/tokenclassification/v1"
-	"github.com/nlpodyssey/cybertron/pkg/tasks/tokenclassification"
+	tokenclassificationv1 "github.com/rh1nox/cybertron/pkg/server/gen/proto/go/tokenclassification/v1"
+	"github.com/rh1nox/cybertron/pkg/tasks/tokenclassification"
 )
 
 var _ tokenclassification.Interface = &clientForTokenClassification{}

@@ -9,9 +9,9 @@ import (
 	"fmt"
 	"time"
 
-	textencodingv1 "github.com/nlpodyssey/cybertron/pkg/server/gen/proto/go/textencoding/v1"
-	"github.com/nlpodyssey/cybertron/pkg/tasks/textencoding"
 	"github.com/nlpodyssey/spago/mat"
+	textencodingv1 "github.com/rh1nox/cybertron/pkg/server/gen/proto/go/textencoding/v1"
+	"github.com/rh1nox/cybertron/pkg/tasks/textencoding"
 )
 
 var _ textencoding.Interface = &clientForTextEncoding{}
